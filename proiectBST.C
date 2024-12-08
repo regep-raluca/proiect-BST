@@ -1,11 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 typedef struct Nod{
     int cheie;
     struct Nod* st;
     struct Nod* dr;
 }Nod;
+
+Nod* creareNod(int cheie){
+    Nod* nodNou = (Nod*)malloc(sizeof(Nod));
+    if(nodNou == NULL){
+      printf("Eroare la alocarea dinamica de memorie!\n");
+      exit(0);
+    }
+
+    nodNou->cheie = cheie;
+    nodNou->st = NULL;
+    nodNou->dr = NULL;
+
+    return nodNou;
+}
 
 int main(){
     int opt;
