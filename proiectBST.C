@@ -22,6 +22,19 @@ Nod* creareNod(int cheie){
     return nodNou;
 }
 
+Nod* inserareNod(int cheie, Nod* n){
+    if(n == NULL){
+      return creareNod(cheie);
+    }
+    if(cheie < n->cheie){
+        n->st = inserareNod(cheie, n->st);
+    }else if(cheie > n->cheie){
+        n->dr = inserareNod(cheie, n->dr);
+    }
+    
+    return n;
+}
+
 int main(){
     int opt;
     do{
