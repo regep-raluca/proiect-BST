@@ -35,6 +35,14 @@ Nod* inserareNod(int cheie, Nod* n){
     return n;
 }
 
+void inordine(Nod* n){
+  if(n != NULL){
+    inordine(n->st);
+    printf("%d ", n->cheie);
+    inordine(n->dr);
+  }
+}
+
 int main(){
     int opt;
     do{
