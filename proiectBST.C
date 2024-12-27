@@ -51,6 +51,14 @@ void preordine(Nod* n){
   }
 }
 
+void postordine(Nod* n){
+  if (n != NULL) {
+     postordine(n->st);
+     postordine(n->dr);
+     printf("%d ", n->cheie);
+  }
+}
+
 int main(){
     int opt;
     do{
