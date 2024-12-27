@@ -43,6 +43,14 @@ void inordine(Nod* n){
   }
 }
 
+void preordine(Nod* n){
+  if(n != NULL){
+     printf("%d ", n->cheie);
+     preordine(n->st);
+     preordine(n->dr);
+  }
+}
+
 int main(){
     int opt;
     do{
