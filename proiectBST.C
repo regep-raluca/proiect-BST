@@ -61,6 +61,7 @@ void postordine(Nod* n){
 
 int main(){
     int opt;
+    Nod* radacina = NULL;
     do{
       printf("Meniu:\n");
       printf("0. Iesire din program\n");
@@ -79,6 +80,8 @@ int main(){
         exit(0);
         break;
       case 1:
+        printf("Traversare in-ordine:\n");
+        inordine(radacina);
         break;
       case 2:
         break;
