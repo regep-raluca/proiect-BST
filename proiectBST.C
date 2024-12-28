@@ -88,6 +88,8 @@ int main(){
         preordine(radacina);
         break;
       case 3:
+        printf("Traversare post-ordine:\n");
+        postordine(radacina);
         break;
       case 4:
         break;
