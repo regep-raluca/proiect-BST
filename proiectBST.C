@@ -60,8 +60,10 @@ void postordine(Nod* n){
 }
 
 int main(){
-    int opt;
+    int opt, val, i, n = 10;
+    int minim = 1, maxim = 50;
     Nod* radacina = NULL;
+    srand(time(NULL));
     do{
       printf("Meniu:\n");
       printf("0. Iesire din program\n");
@@ -80,18 +82,23 @@ int main(){
         exit(0);
         break;
       case 1:
-        printf("Traversare in-ordine:\n");
-        inordine(radacina);
+        for(i = 0; i < n; i++){
+          val = rand() % (maxim - minim + 1) + minim;
+          radacina = inserareNod(val, radacina);
+        }
+        printf("Au fost inserate aleator 10 noduri in arbore.\n");
         break;
       case 2:
         printf("Traversare pre-ordine:\n");
         preordine(radacina);
         break;
       case 3:
-        printf("Traversare post-ordine:\n");
-        postordine(radacina);
+        printf("Traversare in-ordine:\n");
+        inordine(radacina);
         break;
       case 4:
+        printf("Traversare post-ordine:\n");
+        postordine(radacina);
         break;
       case 5:
         break;
