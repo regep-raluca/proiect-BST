@@ -91,14 +91,17 @@ int main(){
       case 2:
         printf("Traversare pre-ordine:\n");
         preordine(radacina);
+        printf("\n");
         break;
       case 3:
         printf("Traversare in-ordine:\n");
         inordine(radacina);
+        printf("\n");
         break;
       case 4:
         printf("Traversare post-ordine:\n");
         postordine(radacina);
+        printf("\n");
         break;
       case 5:
         break;
