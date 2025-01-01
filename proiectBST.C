@@ -70,8 +70,8 @@ void nivel(Nod* radacina){
   Nod* coada[MAX_COADA];
   int inceput = 0, sfarsit = 0;
 
-  coada[inceput] = radacina;
-  inceput++;
+  coada[sfarsit] = radacina;
+  sfarsit++;
 
   printf("Traversare pe nivel (level-order traversal):\n");
   while(inceput < sfarsit){
@@ -80,13 +80,13 @@ void nivel(Nod* radacina){
       printf("%d ", curent->cheie);
 
       if(curent->st != NULL){
-        coada[inceput] = curent->st;
-        inceput++;
+        coada[sfarsit] = curent->st;
+        sfarsit++;
       }
 
       if(curent->dr != NULL){
-        coada[inceput] = curent->dr;
-        inceput++;
+        coada[sfarsit] = curent->dr;
+        sfarsit++;
       }
   }
 }
@@ -136,6 +136,8 @@ int main(){
         printf("\n");
         break;
       case 5:
+        nivel(radacina);
+        printf("\n");
         break;
       default:
         printf("Optiune invalida\n");
