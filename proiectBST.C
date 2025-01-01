@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#define MAX_COADA 100
+
 typedef struct Nod{
     int cheie;
     struct Nod* st;
@@ -56,6 +58,36 @@ void postordine(Nod* n){
      postordine(n->st);
      postordine(n->dr);
      printf("%d ", n->cheie);
+  }
+}
+
+void nivel(Nod* radacina){
+  if(radacina == NULL){
+    printf("Arborele este gol!\n");
+    return;
+  }
+
+  Nod* coada[MAX_COADA];
+  int inceput = 0, sfarsit = 0;
+
+  coada[inceput] = radacina;
+  inceput++;
+
+  printf("Traversare pe nivel (level-order traversal):\n");
+  while(inceput < sfarsit){
+      Nod* curent = coada[inceput];
+      inceput++;
+      printf("%d ", curent->cheie);
+
+      if(curent->st != NULL){
+        coada[inceput] = curent->st;
+        inceput++;
+      }
+
+      if(curent->dr != NULL){
+        coada[inceput] = curent->dr;
+        inceput++;
+      }
   }
 }
 
