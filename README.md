@@ -1,5 +1,7 @@
 # BINARY SEARCH TREE (Arbore binar ordonat) - Implementare în limbajul C 
 
+# Bun venit! :tada:
+
 ## Descrierea Proiectului
 Acest proiect introduce conceptul de **Binary Search Tree (BST)** sau **Arbore Binar Ordonat**, implementat în limbajul de programare C. 
 
