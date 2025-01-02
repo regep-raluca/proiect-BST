@@ -29,17 +29,20 @@ Pentru dezvoltare, s-au utilizat următoarele platforme:
   * Descarcă WSL: *https://docs.microsoft.com/en-us/windows/wsl/install*
 
 ## 🔧 Modalități De Rulare
-**1. Descarcă Visual Studio Code**
-  * Dacă nu ai deja instalat, descarcă și instalează Visual Studio Code, folosind link-ul din secțiunea **Platformă Software Utilizată**.
-**2. Descarcă Proiectul**
-  * Clonează acest repository GitHub.
-  * Deschide folderul proiectului în Visual Studio Code
-**3. Configurează Proiectul**
-  * Dacă nu ai extensia C/C++ instalată, mergi la secțiunea Extensions (Ctrl+Shift+X) și instalează extensia oficială C/C++ de la Microsoft.
-  * Când deschizi proiectul, Visual Studio Code va detecta automat fișierul *proiectBST.c*.
-**4. Rulare Directă**
-  * Apasă F5 (Run) pentru a compila și rula proiectul direct din Visual Studio Code.
-**5. Testează Funcționalitățile**
-  * Acum este momentul să te joci cu proiectul! Interacționează cu meniul și explorează cum funcționează inserarea nodurilor și traversările arborelui. Încearcă diferitele opțiuni și vezi cum se organizează datele în arbore! 
-  * Distracție plăcută și mult succes în explorarea Arborelui Binar Ordonat (BST)! 😊
+1. **Descarcă Visual Studio Code**  
+   Dacă nu ai deja instalat, descarcă și instalează Visual Studio Code, folosind link-ul din secțiunea **Platformă Software Utilizată**.  
 
+2. **Descarcă Proiectul**  
+   Clonează acest repository GitHub.  
+   Deschide folderul proiectului în Visual Studio Code.  
+
+3. **Configurează Proiectul**  
+   Dacă nu ai extensia **C/C++** instalată, mergi la secțiunea **Extensions** (Ctrl+Shift+X) și instalează extensia oficială C/C++ de la Microsoft.  
+   Când deschizi proiectul, Visual Studio Code va detecta automat fișierul `proiectBST.c`.
+
+4. **Rulare Directă**  
+   Apasă `F5` (Run) pentru a compila și rula proiectul direct din Visual Studio Code.  
+
+5. **Testează Funcționalitățile**  
+   Acum este momentul să te joci cu proiectul! Interacționează cu meniul și explorează cum funcționează inserarea nodurilor și traversările arborelui. Încearcă diferitele opțiuni și vezi cum se organizează datele în arbore!  
+   Distracție plăcută și mult succes în explorarea **Arborelui Binar Ordonat (BST)**! 😊
