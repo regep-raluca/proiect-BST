@@ -8,14 +8,14 @@ Acest proiect introduce conceptul de **Binary Search Tree (BST)** sau **Arbore B
 ## Scop 
 Prin implementarea acestui proiect, doresc să demonstrez cât de util este tipul de date **Arbore Binar Ordonat (BST)** și cât de ușor poate fi utilizat pentru a organiza și manipula eficient datele. Proiectul pune accent pe inserarea nodurilor într-un arbore binar ordonat și pe utilizarea diferitelor tehnici de traversare (in-ordine, pre-ordine, post-ordine, pe nivel) pentru a explora structura arborelui și a facilita gestionarea datelor într-o manieră ordonată.
 
-## Funcționalități Implementate
-1. Inserarea într-un arbore binar ordonat: se inserează aleator 10 noduri, conform regulilor din
-2. Traversările arborelui:
-* In-ordine (in-order traversal): nodurile sunt vizitate în ordinea stânga -> rădăcină -> dreapta.
-* Pre-ordine (pre-order traversal): nodurile sunt vizitate în ordinea rădăcină -> stânga -> dreapta.
-* Post-ordine (post-order traversal): nodurile sunt vizitate în ordinea stânga -> dreapta -> rădăcină.
-* Pe nivel (level-order traversal): nodurile sunt vizitate nivel cu nivel, de la rădăcină către frunze.
-
+## Detalii Despre Implementare
+Proiectul implementează un **Arbore Binar Ordonat (BST)** în limbajul **C**, cu următoarele funcționalități:
+- **Inserare noduri**: Nodurile sunt inserate într-un arbore binar ordonat conform regulilor BST (nodurile din subarborele stâng sunt mai mici decât nodul curent, iar cele din subarborele drept sunt mai mari).
+- **Traversări**: Sunt implementate patru tipuri de traversări ale arborelui:
+  - **In-ordine (in-order traversal)**: vizitează nodurile în ordinea *stânga -> rădăcină -> dreapta.*
+  - **Pre-ordine (pre-order traversal)**: vizitează nodurile în ordinea *rădăcină -> stânga -> dreapta.*
+  - **Post-ordine (post-order traversal)**: vizitează nodurile în ordinea *stânga -> dreapta -> rădăcină.*
+  - **Pe nivel (level-order traversal)**: vizitează nodurile nivel cu nivel, de la *rădăcină* către *frunze*.
 
 ## Platformă Software Utilizată
 Proiectul a fost realizat în limbajul de programare **C**.
