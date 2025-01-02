@@ -5,7 +5,10 @@
 ## Descrierea Proiectului
 Acest proiect introduce conceptul de **Binary Search Tree (BST)** sau **Arbore Binar Ordonat**, implementat în limbajul de programare C. 
 
-## Funcționalități implementate
+## Scop 
+Prin implementarea acestui proiect, doresc să demonstrez cât de util este tipul de date **Arbore Binar Ordonat (BST)** și cât de ușor poate fi utilizat pentru a organiza și manipula eficient datele. Proiectul pune accent pe inserarea nodurilor într-un arbore binar ordonat și pe utilizarea diferitelor tehnici de traversare (in-ordine, pre-ordine, post-ordine, pe nivel) pentru a explora structura arborelui și a facilita gestionarea datelor într-o manieră ordonată.
+
+## Funcționalități Implementate
 1. Inserarea într-un arbore binar ordonat: se inserează aleator 10 noduri, conform regulilor din
 2. Traversările arborelui:
 * In-ordine (in-order traversal): nodurile sunt vizitate în ordinea stânga -> rădăcină -> dreapta.
@@ -13,10 +16,8 @@ Acest proiect introduce conceptul de **Binary Search Tree (BST)** sau **Arbore B
 * Post-ordine (post-order traversal): nodurile sunt vizitate în ordinea stânga -> dreapta -> rădăcină.
 * Pe nivel (level-order traversal): nodurile sunt vizitate nivel cu nivel, de la rădăcină către frunze.
 
-## Scop 
-Prin implementarea acestui proiect, doresc să demonstrez cât de util este tipul de date **Arbore Binar Ordonat (BST)** și cât de ușor poate fi utilizat pentru a organiza și manipula eficient datele. Proiectul pune accent pe inserarea nodurilor într-un arbore binar ordonat și pe utilizarea diferitelor tehnici de traversare (in-ordine, pre-ordine, post-ordine, pe nivel) pentru a explora structura arborelui și a facilita gestionarea datelor într-o manieră ordonată.
 
-## Platformă software utilizată
+## Platformă Software Utilizată
 Proiectul a fost realizat în limbajul de programare **C**.
 Pentru dezvoltare, s-au utilizat următoarele platforme:
 * IDE: **Visual Studio Code (VSC)**
