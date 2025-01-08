@@ -52,3 +52,6 @@ La rularea programului, se interacționează cu următorul meniu:
 
 ![Meniu principal](./Imagini/ss1.png)
 
+Odată cu selectarea opțiunii **1**, se inserează aleator 10 noduri în arborele binar de căutare.
+
+![Meniu principal](./Imagini/ss2.png)
