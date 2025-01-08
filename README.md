@@ -46,3 +46,9 @@ Pentru dezvoltare, s-au utilizat următoarele platforme:
 5. **Testează Funcționalitățile**  
    Acum este momentul să te joci cu proiectul! Interacționează cu meniul și explorează cum funcționează inserarea nodurilor și traversările arborelui. Încearcă diferitele opțiuni și vezi cum se organizează datele în arbore!  
    Distracție plăcută și mult succes în explorarea **Arborelui Binar Ordonat (BST)**! 😊
+
+## 📊 Rezultate și Exemple De Rulare
+La rularea programului, se interacționează cu următorul meniu:
+
+![Meniu principal](./Imagini/ss1.png)
+
