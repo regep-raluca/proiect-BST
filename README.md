@@ -67,3 +67,7 @@ Opțiunea **3** (traversarea in-ordine) produce următorul rezultat:
 Opțiunea **4** (traversarea post-ordine) produce următorul rezultat:
 
 ![Traversare post-ordine](./Imagini/ss5.png)
+
+Opțiunea **5** (traversarea pe nivel) produce următorul rezultat:
+
+![Traversare pe nivel](./Imagini/ss5.png)
