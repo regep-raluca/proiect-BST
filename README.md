@@ -55,3 +55,7 @@ La rularea programului, se interacționează cu următorul meniu:
 Odată cu selectarea opțiunii **1**, se inserează aleator 10 noduri în arborele binar de căutare.
 
 ![Inserare noduri aleator](./Imagini/ss2.png)
+
+Opțiunea **2** (traversarea pre-ordine) produce următorul rezultat:
+
+![Traversare pre-ordine](./Imagini/ss3.png)
