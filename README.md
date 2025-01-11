@@ -63,3 +63,7 @@ Opțiunea **2** (traversarea pre-ordine) produce următorul rezultat:
 Opțiunea **3** (traversarea in-ordine) produce următorul rezultat:
 
 ![Traversare in-ordine](./Imagini/ss4.png)
+
+Opțiunea **4** (traversarea post-ordine) produce următorul rezultat:
+
+![Traversare post-ordine](./Imagini/ss5.png)
