@@ -59,3 +59,7 @@ Odată cu selectarea opțiunii **1**, se inserează aleator 10 noduri în arbore
 Opțiunea **2** (traversarea pre-ordine) produce următorul rezultat:
 
 ![Traversare pre-ordine](./Imagini/ss3.png)
+
+Opțiunea **3** (traversarea in-ordine) produce următorul rezultat:
+
+![Traversare in-ordine](./Imagini/ss4.png)
