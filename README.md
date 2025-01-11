@@ -70,6 +70,6 @@ Opțiunea **4** (traversarea post-ordine) produce următorul rezultat:
 
 Opțiunea **5** (traversarea pe nivel) produce următorul rezultat:
 
-![Traversare pe nivel](./Imagini/ss5.png)
+![Traversare pe nivel](./Imagini/ss6.png)
 
 Opțiunea **0** închide programul și afișează un mesaj de confirmare.
