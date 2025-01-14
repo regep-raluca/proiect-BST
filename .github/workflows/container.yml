@@ -1,32 +1,32 @@
 name: Docker Image CI
-
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  contents: read
+  packages: write  
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-      
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Login to GitHub Container Registry
-      uses: docker/login-action@v2
-      with:
-        registry: ghcr.io
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Build and Push the Docker image
-      env:
-        IMAGE_NAME: ghcr.io/${{ github.repository }}/proiectBST
-      run: |
-        docker build . --file Dockerfile --tag $IMAGE_NAME:latest
-        docker push $IMAGE_NAME:latest
+      - name: Build and Push the Docker image
+        env:
+          IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/proiectbst
+        run: |
+          docker build . --file Dockerfile --tag $IMAGE_NAME:latest
+          docker push $IMAGE_NAME:latest
