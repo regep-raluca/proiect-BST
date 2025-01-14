@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: read
       packages: write
-      
+
     steps:
     - uses: actions/checkout@v3
 
@@ -26,7 +26,7 @@ jobs:
     - name: Build the Docker image
       id: docker_build
       env:
-        IMAGE_NAME: ghcr.io/${{ github.repository }}/proiectBST
+        IMAGE_NAME: ghcr.io/${{ github.repository }}/proiect-bst/proiectbst
       run: |
         docker build . --file Dockerfile --tag $IMAGE_NAME:latest
         docker push $IMAGE_NAME:latest
